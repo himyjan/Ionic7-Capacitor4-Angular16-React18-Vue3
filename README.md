@@ -12,8 +12,14 @@ npm i @capacitor/cli @capacitor/core @capacitor/ios @capacitor/android
 cap init
 ```
 ```
-cap add ios;cap add android;cap sync
-cap open ios;cap open android
+cap add ios;cap add android
+```
+```
+npm run build
+npm run dev
+
+# new terminal
+cap sync;cap open ios;cap open android
 ```
 
 Your Ionic app is ready! Follow these next steps:
