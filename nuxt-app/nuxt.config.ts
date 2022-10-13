@@ -15,5 +15,4 @@ export default defineNuxtConfig({
     // },
   },
   // ssr: false,
-  redirect: [{ from: '.', to: '/tab1', statusCode: 301 }],
 });
