@@ -15,6 +15,7 @@
   "devDependencies": {
     "@capacitor/cli": "^4.3.0",
     "nuxt": "^3.0.0-rc.11",
+    "nuxt-ionic": "^0.7.0",
     "typescript": "^4.8.4"
   },
   "dependencies": {
@@ -22,6 +23,7 @@
     "@capacitor/core": "^4.3.0",
     "@capacitor/ios": "^4.3.0",
     "@ionic/core": "^6.3.1",
-    "@ionic/vue": "^6.3.1"
+    "@ionic/vue": "^6.3.1",
+    "ionicons": "^6.0.3"
   }
 }
