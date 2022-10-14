@@ -24,13 +24,16 @@ import '@ionic/react/css/display.css';
 // import './theme/variables.css';
 
 import NonSSRWrapper from '../components/NonSSRWrapper';
+import Layout from '../components/Layout';
 
 setupIonicReact();
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <NonSSRWrapper>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </NonSSRWrapper>
   );
 }
