@@ -1,8 +1,5 @@
-import '../styles/globals.css';
 import type { AppProps } from 'next/app';
-
 import { setupIonicReact } from '@ionic/react';
-import {} from 'ionicons/icons';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -21,7 +18,10 @@ import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
 
 /* Theme variables */
-// import './theme/variables.css';
+import '../theme/variables.css';
+
+/* Global CSS */
+import '../styles/globals.css';
 
 import NonSSRWrapper from '../components/NonSSRWrapper';
 import Layout from '../components/Layout';

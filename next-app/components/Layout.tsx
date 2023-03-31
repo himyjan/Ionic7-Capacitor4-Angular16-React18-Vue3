@@ -9,7 +9,11 @@ import {
 } from '@ionic/react';
 import { ellipse, square, triangle } from 'ionicons/icons';
 
-export default function Layout({ children }) {
+export default function Layout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <>
       {children}
