@@ -1,8 +1,3 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
-// import App from './App';
-import * as serviceWorkerRegistration from './serviceWorkerRegistration';
-import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -44,7 +39,7 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 
 /* Global CSS */
-// import './globals.css';
+import './globals.css';
 
 setupIonicReact();
 
@@ -68,29 +63,27 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => (
-  <React.StrictMode>
-    <IonApp>
-      <IonTabs>
-        <IonRouterOutlet>
-          <RouterProvider router={router} />
-        </IonRouterOutlet>
-        <IonTabBar slot='bottom'>
-          <IonTabButton tab='tab1' href='/tab1'>
-            <IonIcon icon={triangle} />
-            <IonLabel>Tab 1</IonLabel>
-          </IonTabButton>
-          <IonTabButton tab='tab2' href='/tab2'>
-            <IonIcon icon={ellipse} />
-            <IonLabel>Tab 2</IonLabel>
-          </IonTabButton>
-          <IonTabButton tab='tab3' href='/tab3'>
-            <IonIcon icon={square} />
-            <IonLabel>Tab 3</IonLabel>
-          </IonTabButton>
-        </IonTabBar>
-      </IonTabs>
-    </IonApp>
-  </React.StrictMode>
+  <IonApp>
+    <IonTabs>
+      <IonRouterOutlet>
+        <RouterProvider router={router} />
+      </IonRouterOutlet>
+      <IonTabBar slot='bottom'>
+        <IonTabButton tab='tab1' href='/tab1'>
+          <IonIcon icon={triangle} />
+          <IonLabel>Tab 1</IonLabel>
+        </IonTabButton>
+        <IonTabButton tab='tab2' href='/tab2'>
+          <IonIcon icon={ellipse} />
+          <IonLabel>Tab 2</IonLabel>
+        </IonTabButton>
+        <IonTabButton tab='tab3' href='/tab3'>
+          <IonIcon icon={square} />
+          <IonLabel>Tab 3</IonLabel>
+        </IonTabButton>
+      </IonTabBar>
+    </IonTabs>
+  </IonApp>
 );
 
 export default App;
