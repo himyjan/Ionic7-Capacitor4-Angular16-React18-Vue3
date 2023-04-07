@@ -71,8 +71,8 @@
     ]
   },
   "devDependencies": {
-    "@capacitor/cli": "^4.3.0",
-    "@ionic/cli": "^7.0.0",
+    "@capacitor/cli": "^4.7.3",
+    "@ionic/cli": "^7.0.1",
     "@types/testing-library__jest-dom": "^5.14.5"
   },
   "description": "An Ionic project"
