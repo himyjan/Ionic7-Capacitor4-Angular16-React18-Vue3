@@ -1,3 +1,9 @@
+<script setup lang="ts">
+  definePageMeta({
+    alias: ['/', '/tabs'],
+  })
+</script>
+
 <template>
   <ion-page>
     <ion-header>
@@ -16,5 +22,3 @@
     </ion-content>
   </ion-page>
 </template>
-
-<script setup lang="ts"></script>
