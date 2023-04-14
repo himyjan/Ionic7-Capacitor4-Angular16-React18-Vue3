@@ -14,11 +14,11 @@
     "ionic:ios": "cap sync && cap open ios"
   },
   "dependencies": {
-    "@capacitor/android": "^4.7.3",
-    "@capacitor/core": "^4.7.3",
-    "@capacitor/ios": "^4.7.3",
-    "@ionic/core": "^7.0.1",
-    "@ionic/react": "^7.0.1",
+    "@capacitor/android": "next",
+    "@capacitor/core": "next",
+    "@capacitor/ios": "next",
+    "@ionic/core": "^7.0.2",
+    "@ionic/react": "^7.0.2",
     "ionicons": "^7.1.0",
     "next": "^13.3.0",
     "next-transpile-modules": "^10.0.0",
@@ -26,14 +26,14 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@capacitor/cli": "^4.7.3",
+    "@capacitor/cli": "next",
     "@ionic/cli": "^7.0.1",
     "@types/eslint": "^8.37.0",
     "@types/node": "^18.15.11",
-    "@types/react": "^18.0.33",
+    "@types/react": "^18.0.35",
     "@types/react-dom": "^18.0.11",
-    "eslint": "^8.37.0",
+    "eslint": "^8.38.0",
     "eslint-config-next": "^13.3.0",
-    "typescript": "^5.0.3"
+    "typescript": "^5.0.4"
   }
 }

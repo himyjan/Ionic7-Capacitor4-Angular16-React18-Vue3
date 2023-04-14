@@ -9,10 +9,10 @@ add mobile
 ```
 npm i
 npm i @capacitor/cli @capacitor/core @capacitor/ios @capacitor/android
-cap init
+npx cap init
 ```
 ```
-cap add ios;cap add android
+npx cap add ios;npx cap add android
 ```
 ```
 npm run build

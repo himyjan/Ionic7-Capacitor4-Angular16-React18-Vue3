@@ -2,12 +2,10 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.example.app',
-  appName: 'angular-app',
+  appName: 'analog-app',
   webDir: 'www',
-  bundledWebRuntime: false,
   server: {
-    url: 'http://localhost:4200/',
-    cleartext: true,
+    androidScheme: 'https'
   },
 };
 

@@ -16,15 +16,15 @@
     "@capacitor/cli": "^4.7.3",
     "@ionic/cli": "^7.0.1",
     "@nuxtjs/ionic": "latest",
-    "nuxt": "^3.3.3",
-    "typescript": "^5.0.3"
+    "nuxt": "^3.4.1",
+    "typescript": "^5.0.4"
   },
   "dependencies": {
     "@capacitor/android": "^4.7.3",
     "@capacitor/core": "^4.7.3",
     "@capacitor/ios": "^4.7.3",
-    "@ionic/core": "^7.0.1",
-    "@ionic/vue": "^7.0.1",
+    "@ionic/core": "^7.0.2",
+    "@ionic/vue": "^7.0.2",
     "ionicons": "^7.1.0"
   }
 }

@@ -4,10 +4,8 @@ const config: CapacitorConfig = {
   appId: 'com.example.app',
   appName: 'angular-app',
   webDir: 'www',
-  bundledWebRuntime: false,
   server: {
-    url: 'http://localhost:4200/',
-    cleartext: true,
+    androidScheme: 'https'
   },
 };
 
