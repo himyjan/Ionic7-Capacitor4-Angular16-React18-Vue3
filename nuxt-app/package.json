@@ -13,18 +13,18 @@
     "ionic:ios": "cap sync && cap open ios"
   },
   "devDependencies": {
-    "@capacitor/cli": "^5.0.0",
+    "@capacitor/cli": "^5.0.3",
     "@ionic/cli": "^7.1.1",
     "@nuxtjs/ionic": "latest",
-    "nuxt": "^3.4.3",
+    "nuxt": "^3.5.0",
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@capacitor/android": "^5.0.0",
-    "@capacitor/core": "^5.0.0",
-    "@capacitor/ios": "^5.0.0",
-    "@ionic/core": "^7.0.5",
-    "@ionic/vue": "^7.0.5",
+    "@capacitor/android": "^5.0.3",
+    "@capacitor/core": "^5.0.3",
+    "@capacitor/ios": "^5.0.3",
+    "@ionic/core": "^7.0.6",
+    "@ionic/vue": "^7.0.6",
     "ionicons": "^7.1.0"
   }
 }
