@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "next dev",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.0.5",
+    "@nuxtjs/ionic": "latest",
+    "nuxt": "^3.5.3"
+  }
+}
