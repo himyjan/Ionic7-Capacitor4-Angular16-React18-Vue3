@@ -4,7 +4,9 @@ const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
   appName: 'react-app',
   webDir: 'build',
-  bundledWebRuntime: false
+  server: {
+    androidScheme: 'https'
+  },
 };
 
 export default config;
