@@ -59,7 +59,7 @@
     "@ionic/cli": "^7.1.1",
     "@nx/vite": "^16.3.2",
     "@types/eslint": "^8.40.2",
-    "@types/jasmine": "^4.3.2",
+    "@types/jasmine": "^5.0.0",
     "@types/jasminewd2": "^2.0.10",
     "@types/jsdom": "^21.1.1",
     "@types/karma": "^6.3.4",
