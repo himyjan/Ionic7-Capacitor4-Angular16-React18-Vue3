@@ -24,7 +24,7 @@
     "@capacitor/core": "^6.0.0",
     "@capacitor/ios": "^6.0.0",
     "@ionic/core": "^7.0.12",
-    "@ionic/vue": "^7.0.12",
+    "@ionic/vue": "^8.0.0",
     "ionicons": "^7.1.2"
   }
 }
