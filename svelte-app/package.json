@@ -42,7 +42,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@ionic/core": "^7.1.0",
+    "@ionic/core": "^8.0.0",
     "ionic-svelte": "latest",
     "localforage": "^1.10.0",
     "swiper": "^11.0.0"
