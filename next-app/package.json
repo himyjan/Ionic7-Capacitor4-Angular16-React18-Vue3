@@ -17,7 +17,7 @@
     "@capacitor/android": "^6.0.0",
     "@capacitor/core": "^6.0.0",
     "@capacitor/ios": "^6.0.0",
-    "@ionic/core": "^7.0.12",
+    "@ionic/core": "^8.0.0",
     "@ionic/react": "^8.0.0",
     "ionicons": "^7.1.2",
     "next": "^14.0.0",

@@ -21,7 +21,7 @@
     "@capacitor/ios": "^6.0.0",
     "@capacitor/keyboard": "^6.0.0",
     "@capacitor/status-bar": "^6.0.0",
-    "@ionic/core": "^7.0.12",
+    "@ionic/core": "^8.0.0",
     "@ionic/react": "^8.0.0",
     "@ionic/react-router": "^8.0.0",
     "@testing-library/jest-dom": "^6.0.0",
