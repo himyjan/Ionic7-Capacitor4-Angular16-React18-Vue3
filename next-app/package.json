@@ -20,7 +20,7 @@
     "@ionic/core": "^8.0.0",
     "@ionic/react": "^8.0.0",
     "ionicons": "^7.1.2",
-    "next": "^14.0.0",
+    "next": "^15.0.0",
     "next-transpile-modules": "^10.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -33,7 +33,7 @@
     "@types/react": "^18.2.12",
     "@types/react-dom": "^18.2.5",
     "eslint": "^9.0.0",
-    "eslint-config-next": "^14.0.0",
+    "eslint-config-next": "^15.0.0",
     "typescript": "^5.1.3"
   }
 }
