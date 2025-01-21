@@ -14,11 +14,11 @@
     "ionic:ios": "cap sync && cap open ios"
   },
   "dependencies": {
-    "@capacitor/android": "^6.0.0",
+    "@capacitor/android": "^7.0.0",
     "@capacitor/app": "^6.0.0",
-    "@capacitor/core": "^6.0.0",
+    "@capacitor/core": "^7.0.0",
     "@capacitor/haptics": "^6.0.0",
-    "@capacitor/ios": "^6.0.0",
+    "@capacitor/ios": "^7.0.0",
     "@capacitor/keyboard": "^6.0.0",
     "@capacitor/status-bar": "^6.0.0",
     "@ionic/core": "^8.0.0",
@@ -71,7 +71,7 @@
     ]
   },
   "devDependencies": {
-    "@capacitor/cli": "^6.0.0",
+    "@capacitor/cli": "^7.0.0",
     "@ionic/cli": "^7.0.1",
     "@types/testing-library__jest-dom": "^6.0.0"
   },
